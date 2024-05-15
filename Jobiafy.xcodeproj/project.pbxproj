@@ -15,6 +15,13 @@
 		A7C440362BF49BFB009808DF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A7C440352BF49BFB009808DF /* Lottie */; };
 		A7C4403A2BF49CB2009808DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C440382BF49CB2009808DF /* HomeViewController.swift */; };
 		A7C4403B2BF49CB2009808DF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C440392BF49CB2009808DF /* HomeViewController.xib */; };
+		A7C4403E2BF49FCB009808DF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A7C4403D2BF49FCB009808DF /* Kingfisher */; };
+		A7C440412BF4A035009808DF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A7C440402BF4A035009808DF /* Alamofire */; };
+		A7C440432BF4A035009808DF /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A7C440422BF4A035009808DF /* AlamofireDynamic */; };
+		A7C440462BF4A0F2009808DF /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A7C440452BF4A0F2009808DF /* JGProgressHUD */; };
+		A7C440492BF4A57B009808DF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A7C440482BF4A57B009808DF /* IQKeyboardManagerSwift */; };
+		A7C4404C2BF4C4D3009808DF /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A7C4404B2BF4C4D3009808DF /* RswiftLibrary */; };
+		A7C4404E2BF4C4D3009808DF /* rswift in Frameworks */ = {isa = PBXBuildFile; productRef = A7C4404D2BF4C4D3009808DF /* rswift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +40,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C440492BF4A57B009808DF /* IQKeyboardManagerSwift in Frameworks */,
+				A7C4404C2BF4C4D3009808DF /* RswiftLibrary in Frameworks */,
+				A7C4403E2BF49FCB009808DF /* Kingfisher in Frameworks */,
+				A7C440412BF4A035009808DF /* Alamofire in Frameworks */,
+				A7C440432BF4A035009808DF /* AlamofireDynamic in Frameworks */,
 				A7C440332BF49B4E009808DF /* SkeletonView in Frameworks */,
+				A7C440462BF4A0F2009808DF /* JGProgressHUD in Frameworks */,
 				A7C440362BF49BFB009808DF /* Lottie in Frameworks */,
+				A7C4404E2BF4C4D3009808DF /* rswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +112,13 @@
 			packageProductDependencies = (
 				A7C440322BF49B4E009808DF /* SkeletonView */,
 				A7C440352BF49BFB009808DF /* Lottie */,
+				A7C4403D2BF49FCB009808DF /* Kingfisher */,
+				A7C440402BF4A035009808DF /* Alamofire */,
+				A7C440422BF4A035009808DF /* AlamofireDynamic */,
+				A7C440452BF4A0F2009808DF /* JGProgressHUD */,
+				A7C440482BF4A57B009808DF /* IQKeyboardManagerSwift */,
+				A7C4404B2BF4C4D3009808DF /* RswiftLibrary */,
+				A7C4404D2BF4C4D3009808DF /* rswift */,
 			);
 			productName = Jobiafy;
 			productReference = A7C4401A2BF49ACB009808DF /* Jobiafy.app */;
@@ -130,6 +151,11 @@
 			packageReferences = (
 				A7C440312BF49B4D009808DF /* XCRemoteSwiftPackageReference "SkeletonView" */,
 				A7C440342BF49BFB009808DF /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				A7C4403C2BF49FCB009808DF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A7C4403F2BF4A035009808DF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A7C440442BF4A0F2009808DF /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				A7C440472BF4A57B009808DF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				A7C4404A2BF4C4D3009808DF /* XCRemoteSwiftPackageReference "R.swift" */,
 			);
 			productRefGroup = A7C4401B2BF49ACB009808DF /* Products */;
 			projectDirPath = "";
@@ -382,6 +408,46 @@
 				minimumVersion = 4.4.3;
 			};
 		};
+		A7C4403C2BF49FCB009808DF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		A7C4403F2BF4A035009808DF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		A7C440442BF4A0F2009808DF /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		A7C440472BF4A57B009808DF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.3;
+			};
+		};
+		A7C4404A2BF4C4D3009808DF /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -394,6 +460,41 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A7C440342BF49BFB009808DF /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		A7C4403D2BF49FCB009808DF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C4403C2BF49FCB009808DF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A7C440402BF4A035009808DF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C4403F2BF4A035009808DF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A7C440422BF4A035009808DF /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C4403F2BF4A035009808DF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		A7C440452BF4A0F2009808DF /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C440442BF4A0F2009808DF /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		A7C440482BF4A57B009808DF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C440472BF4A57B009808DF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		A7C4404B2BF4C4D3009808DF /* RswiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C4404A2BF4C4D3009808DF /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = RswiftLibrary;
+		};
+		A7C4404D2BF4C4D3009808DF /* rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7C4404A2BF4C4D3009808DF /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = rswift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
