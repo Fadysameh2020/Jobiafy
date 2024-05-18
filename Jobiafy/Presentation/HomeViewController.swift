@@ -14,7 +14,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let firstCommit = 12
+        let firstCommit = "fadyyy"
     }
     // swiftlint:disable all
 
