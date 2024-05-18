@@ -7,6 +7,7 @@
 
 import UIKit
 
+// swiftlint:disable all
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -53,4 +54,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
+// swiftlint:disable all
